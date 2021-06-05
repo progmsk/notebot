@@ -1,0 +1,3 @@
+PHP version of telegram bot.
+
+Use [composer](https://getcomposer.org/) to initialize project and generate autoload file.

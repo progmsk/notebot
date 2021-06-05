@@ -1,0 +1,25 @@
+{
+  "name": "vendor_name/moscow_club",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "alex",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "": "src/" },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9"
+  },
+  "require": {
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
